@@ -1,0 +1,100 @@
+
+@font-face {
+  font-family: mangabey;
+  src: url(fonts/mangabey.otf);
+}
+@font-face {
+  font-family: fresca;
+  src: url(fonts/fresca.ttf);
+}
+
+.buttonchoose{
+	min-width:100px;
+	padding:10px;
+	text-align: center;
+	min-height:100px;
+	font-family: fresca;
+	font-size:2em;
+	border-radius: 10px;
+	color:#FFDBC5;
+	background-color: #423144;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border:0;
+}
+
+.buttonchoose:hover{
+	background-color:#CF1B1B;
+}
+
+body{
+	margin:0;
+
+}
+.container{
+	display: flex;
+	min-height:100vh;
+}
+
+
+.left_container{
+	
+	float:left;
+
+	flex: 20%;
+	background-color: #FFDBC5;
+	transition: flex 2s;
+	
+}
+.left_container:hover{
+	
+	
+	
+	flex: 50%;
+	
+	
+}
+
+#imgbryan{
+	padding:10px;
+	width:200px;
+	border-radius: 50%;
+}
+.right_container{
+	padding:20px;
+	
+	float:right;
+	
+	flex: 80%;
+	background-color: #900D0D;
+	z-index: 1;
+	
+}
+.right_container{
+	
+	
+	float:right;
+	
+	flex: 50%;
+	background-color: #900D0D;
+	z-index: 1;
+	
+}
+#name_title{
+	font-size:2.5em;
+	text-align: center;
+	width:100%;
+}
+
+#name{
+	font-family: mangabey;
+	color:#FFDBC5;
+}
+.img_container{
+	text-align: center;
+	width:100%;
+}
+.writings{
+	font-family: fresca;
+	color:#FFDBC5;
+}
