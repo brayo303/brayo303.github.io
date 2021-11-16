@@ -8,6 +8,8 @@
   src: url(fonts/fresca.ttf);
 }
 
+
+
 .buttonchoose{
 	min-width:100px;
 	padding:10px;
@@ -26,6 +28,42 @@
 .buttonchoose:hover{
 	background-color:#CF1B1B;
 }
+#buttonback{
+	min-width:100px;
+	padding:10px;
+	text-align: center;
+	min-height:100px;
+	font-family: fresca;
+	font-size:2em;
+	border-radius: 10px;
+	color:#FFDBC5;
+	background-color: #423144;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border:0;
+	
+	opacity:0;
+	
+	transition: opacity 1s;
+}
+
+#buttonback:hover{
+	background-color:#CF1B1B;
+
+}
+
+
+#img1 {
+	width:200px;
+}
+#img12 {
+	width:300px;
+}
+#img13 {
+	width:400px;
+}
+
+
 
 body{
 	margin:0;
@@ -43,7 +81,7 @@ body{
 
 	flex: 20%;
 	background-color: #FFDBC5;
-	transition: flex 2s;
+	transition: flex 1s;
 	
 }
 .left_container:hover{
