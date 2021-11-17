@@ -22,18 +22,6 @@ buttonback.addEventListener("click", function(){
 
 let curchoose = -1;
 
-for(let i = 0; i<button.length ; i++){
-  	if(curchoose==i){
-		button[i].style.backgroundColor = '#CF1B1B';
-		containerleft.style.flex='70%'
-		cont[i].style.display='block';
-  	}else{
-  		console.log("a");
-  		button[i].style.backgroundColor = '#423144';
-  		cont[i].style.display='none';
-  			
-  	}
-}
 
 
 function onClick(x) {
