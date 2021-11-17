@@ -38,28 +38,37 @@ for(let i = 0; i<button.length ; i++){
 
 
 function onClick(x) {
+	let prev = curchoose;
   	curchoose=x;
-  	for(let i = 0; i<button.length ; i++){
-  		if(curchoose==i){
-			button[i].style.backgroundColor = '#CF1B1B';
-			containerleft.style.flex='70%'
-			cont[i].style.display='block';
-  		}else{
-  			button[i].style.backgroundColor = '#423144';
-  			cont[i].style.display='none';
-  			
-  		}
-	}
+  	containerleft.style.flex='70%'
+  	
 	if(curchoose==-1){
 		containerleft.style.flex='20%';
 		buttonback.style.opacity= '0';
+		button[prev].style.backgroundColor = '#423144';
+		cont[prev].style.display = 'none';
 		cont[cont.length-1].style.display = 'block';
+    	containerleft.style.backgroundImage='url(img/push.png)';
+		
 	}else{
 		buttonback.style.display= 'inline-block';
 		buttonback.style.opacity= '1.0';
 		console.log("in");
-		cont[cont.length-1].style.display = 'none';
-
+		button[curchoose].style.backgroundColor = '#CF1B1B';
+		if(prev==-1){
+			window.setTimeout(function () {
+				containerleft.style.backgroundImage='none';
+				cont[cont.length-1].style.display = 'none';
+				cont[curchoose].style.display='block';
+	    		
+			}, 1000);
+		}
+		else{
+	  		
+			cont[curchoose].style.display='block';
+			button[prev].style.backgroundColor = '#423144';
+			cont[prev].style.display='none';
+  		}
 	}
 }
 

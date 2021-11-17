@@ -82,6 +82,10 @@ body{
 	flex: 20%;
 	background-color: #FFDBC5;
 	transition: flex 1s;
+	background-image: url('../img/push.png');
+ 	background-repeat: no-repeat;
+  	
+  	background-position: right bottom;
 	
 }
 .left_container:hover{
@@ -92,6 +96,8 @@ body{
 	
 	
 }
+
+
 
 #imgbryan{
 	padding:10px;
