@@ -78,6 +78,9 @@ body{
 .cont{
 	display:none;
 }
+#maincont{
+	display:block;
+}
 
 .left_container{
 	
