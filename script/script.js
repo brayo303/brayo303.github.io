@@ -5,10 +5,9 @@ var containerleft = document.getElementsByClassName("left_container")[0];
 var cont = document.getElementsByClassName("cont");
 var buttonback = document.getElementById('buttonback');
 
-console.log(button);
 
 
-cont[0].style.display = 'block';
+cont[cont.length-1].style.display = 'block';
 
 for(let i = 0; i<button.length ; i++){
 	button[i].addEventListener("click", function(){
@@ -91,3 +90,5 @@ function HoverFuncB(){
 		containerleft.style.flex='20%';
 	}
 }
+
+
