@@ -8,7 +8,7 @@ var buttonback = document.getElementById('buttonback');
 console.log(button);
 
 
-
+cont[0].style.display = 'block';
 
 for(let i = 0; i<button.length ; i++){
 	button[i].addEventListener("click", function(){
