@@ -4,8 +4,8 @@ var button = document.getElementsByClassName("buttonchoose");
 var containerleft = document.getElementsByClassName("left_container")[0];
 var cont = document.getElementsByClassName("cont");
 var buttonback = document.getElementById('buttonback');
-console.log(button);
 
+console.log(button);
 
 
 
@@ -51,7 +51,7 @@ function onClick(x) {
   		}
 	}
 	if(curchoose==-1){
-		containerleft.style.flex='20%'
+		containerleft.style.flex='20%';
 		buttonback.style.opacity= '0';
 		cont[cont.length-1].style.display = 'block';
 	}else{
@@ -60,5 +60,25 @@ function onClick(x) {
 		console.log("in");
 		cont[cont.length-1].style.display = 'none';
 
+	}
+}
+
+
+containerleft.addEventListener("mouseover",HoverFunc);
+containerleft.addEventListener("mouseleave",HoverFuncB);
+
+function HoverFunc(){
+
+	if(curchoose==-1){
+		console.log('a');
+		containerleft.style.flex='50%';
+	}
+}
+
+function HoverFuncB(){
+
+	if(curchoose==-1){
+		console.log('a');
+		containerleft.style.flex='20%';
 	}
 }
