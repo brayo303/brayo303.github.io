@@ -1,4 +1,6 @@
-
+window.onload = function() {
+            alert("We will update the web information and provide more professional UI in 17 October 2025");
+};
 
 var button = document.getElementsByClassName("buttonchoose");
 var containerleft = document.getElementsByClassName("left_container")[0];
