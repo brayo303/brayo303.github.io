@@ -892,7 +892,7 @@ section,
 
 
 .testimonials .testimonial-item .testimonial-img2 {
-  width: 600px;
+  width: 100%;
   
   border: 4px solid var(--background-color);
   margin: 0 auto;
