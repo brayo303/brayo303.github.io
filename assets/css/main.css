@@ -595,6 +595,52 @@ h6 {
   }
 }
 
+/* 
+----------------
+portofolio-item border add
+----------------
+*/
+.portfolio-item {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  padding: 0;
+  
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  
+}
+
+.portfolio-item .portfolio-info{
+  
+  
+  border-radius: 15px;
+  
+  
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  
+}
+
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+  /* #portfolio .col-lg-4 {
+    width: 32%;
+    margin-right: 1%;
+  }
+
+
+  #portfolio .col-md-6 {
+    width: 48%;
+    margin-right: 1%;
+  } */
+
+
+
 /*--------------------------------------------------------------
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
